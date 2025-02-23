@@ -1,0 +1,14 @@
+23:34:37 **** Incremental Build of configuration Debug for project The_Beginning ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429xx -c -I"C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/CMSIS/Include" -I"C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/Core/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "The_Beginning.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Engineering\GitHub\Embedded_Systems\The_Beginning\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="The_Beginning.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: The_Beginning.elf
+ 
+arm-none-eabi-size  The_Beginning.elf 
+arm-none-eabi-objdump -h -S The_Beginning.elf  > "The_Beginning.list"
+   text	   data	    bss	    dec	    hex	filename
+    724	      0	   1568	   2292	    8f4	The_Beginning.elf
+Finished building: default.size.stdout
+ 
+Finished building: The_Beginning.list
+ 

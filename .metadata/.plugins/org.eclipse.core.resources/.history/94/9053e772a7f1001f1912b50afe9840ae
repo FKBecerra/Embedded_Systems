@@ -1,0 +1,16 @@
+/*
+ * main.h
+ *
+ *  Created on: Feb 22, 2025
+ *      Author: Francisco Becerra
+ */
+
+#ifndef INC_MAIN_H_
+#define INC_MAIN_H_
+
+#include "stm32f429xx.h"
+#include <stdint.h>
+#include <stdio.h>
+#include <stdbool.h>
+
+#endif /* INC_MAIN_H_ */
