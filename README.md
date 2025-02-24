@@ -1,2 +1,2 @@
 # Embedded Systems
- This repository will be used for code testing and research in embedded software development
+ My personal repository for code testing and research in embedded systems development
