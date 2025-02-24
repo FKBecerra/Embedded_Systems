@@ -1,0 +1,21 @@
+Peripheral/Src/RCC.o: ../Peripheral/Src/RCC.c \
+ C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/Peripheral/Inc/RCC.h \
+ C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/Core/Inc/main.h \
+ C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/Core/Inc/stm32f4xx.h \
+ C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/Core/Inc/stm32f429xx.h \
+ C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/CMSIS/Include/core_cm4.h \
+ C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/CMSIS/Include/cmsis_version.h \
+ C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/CMSIS/Include/cmsis_compiler.h \
+ C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/CMSIS/Include/cmsis_gcc.h \
+ C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/CMSIS/Include/mpu_armv7.h \
+ C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/Core/Inc/system_stm32f4xx.h
+C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/Peripheral/Inc/RCC.h:
+C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/Core/Inc/main.h:
+C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/Core/Inc/stm32f4xx.h:
+C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/Core/Inc/stm32f429xx.h:
+C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/CMSIS/Include/core_cm4.h:
+C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/CMSIS/Include/cmsis_version.h:
+C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/CMSIS/Include/cmsis_compiler.h:
+C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/CMSIS/Include/cmsis_gcc.h:
+C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/CMSIS/Include/mpu_armv7.h:
+C:/Users/Engineering/GitHub/Embedded_Systems/The_Beginning/Core/Inc/system_stm32f4xx.h:

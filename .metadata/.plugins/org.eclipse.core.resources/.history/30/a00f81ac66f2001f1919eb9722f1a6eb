@@ -1,0 +1,13 @@
+/*
+ * RCC.c
+ *
+ *  Created on: Feb 23, 2025
+ *      Author: Francisco Becerra
+ */
+
+#include "RCC.h"
+
+void SystemClock(void){
+
+	RCC->PLLCFGR = PLL_N
+}
